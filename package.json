@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "qode index.js true",
+    "start-no-debug": "qode index.js"
+  },
+  "dependencies": {
+    "@nodegui/nodegui": "^0.61.0",
+    "discord-rpc": "^4.0.1",
+    "node-process-windows": "^0.0.2",
+    "path": "^0.12.7",
+    "pid-cwd": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "eslint-config-google": "^0.14.0",
+    "prettier": "^2.5.1"
+  }
+}
